@@ -5,6 +5,7 @@ ctx.lineWidth = 8; // cuanto de ancho tiene la linea
 var startx= 480; // la posicion inicial de x 
 var starty = 200; // la posicion inicial de y
 ctx.strokeStyle = 'black';
+
 ctx.beginPath();
 ctx.arc(480, 200, 20, 0, 2 * Math.PI); // La cabeza
 ctx.stroke();
